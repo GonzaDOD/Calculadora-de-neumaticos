@@ -1,5 +1,5 @@
 # Calculadora de Neumáticos
->###Obtiene la siguiente información:
+> ###Obtiene la siguiente información:
 - Ancho de Pisada (en milímetros)
 - Medida del flanco (en milímetros)
 - Tipo de construcción (Radial o Diagonal)
