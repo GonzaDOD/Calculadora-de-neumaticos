@@ -1,5 +1,5 @@
 # Calculadora de Neumáticos
-> Obtiene la siguiente información:
+### Obtiene la siguiente información:
 - Ancho de Pisada (en milímetros)
 - Medida del flanco (en milímetros)
 - Tipo de construcción (Radial o Diagonal)
@@ -21,7 +21,7 @@
     Capacidad de Carga: 450Kg
     Velocidad Máxima: 210Km/h
 ```
-> Uso correcto del script
+##### Uso correcto del script
 - Se permite el uso de minúsculas
 - No debe incluir espacios
 - Debe tener exactamente 12 dígitos
