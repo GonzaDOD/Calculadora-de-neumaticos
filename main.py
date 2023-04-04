@@ -1,7 +1,13 @@
 # -*- coding: utf-8 -*-
 # La línea superior habilita las tildes en nuestro código
-neumatico = input("Ingresá los datos del neumático sin espacios: ")  
-# Obtenemos los datos del neumático para realizar los cálculos y recopilar información
+def neumatico():
+    n = input("Ingresá los datos del neumático sin espacios(220/40R1880H): ")  
+    # Obtenemos los datos del neumático para realizar los cálculos y recopilar información
+    if n == "":
+        # Si no se introduce ningún dato
+        return "220/40R1880H" # Devuelve el ejemplo
+neumatico = neumatico() # Almacenamos el valor que se obtenga, dentro de una variable
+
 neumatico_list = list(neumatico)  # Lo convertimos en lista para poder acceder a sus dígitos
 
 if len(neumatico) != 12:  # Verificamos si tiene 12 dígitos y no tiene espacios
@@ -71,6 +77,7 @@ else:  # Si, por lo contrario, los datos introducidos son correctos, se procede 
     Diámetro Interno: {diametro_llanta_mm}mm
     Capacidad de Carga: {capacidad_carga[codigo_carga]}Kg
     Velocidad Máxima: {velocidad_max[codigo_velocidad.upper()]}Km/h
-    """)  
+    """)
+    input()
     # Mostramos en pantalla la información recopilada haciendo los cálculos necesarios
     # incluyendo la unidad de los valores y añadiendo el ".upper" para permitir minúsculas.
