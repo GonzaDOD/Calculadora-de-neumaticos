@@ -23,10 +23,9 @@
 ```
 #### Uso correcto del script
 - Se permite el uso de minúsculas
-- No debe incluir espacios
-- Debe tener exactamente 12 dígitos
+- Debe estar separado por espacios
 
 Correcto  | Incorrecto
 ------------- | -------------
-220/40R1880H  | 220/40R18 80H
-220/40r1880h  | 22040r1880h
+220/40 R 18 80 H  | 220/40R1880H
+220/40 r 18 80 h  | 22040r1880h
