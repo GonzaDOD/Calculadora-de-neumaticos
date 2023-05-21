@@ -12,7 +12,7 @@
 [![](https://autoestatico.com/wp-content/uploads/2019/02/multicard-datos-1024x718.jpg)](https://autoestatico.com/como-se-lee-un-neumatico/")
 
 ## Modo de uso
-`Ingresá los datos del neumático sin espacios: ` `220/40R1880H`
+`Ingresá los datos del neumático sin espacios: ` `220/40 R 18 80 H`
 ```
     Ancho de pisada: 220mm
     Medida del flanco: 88mm
