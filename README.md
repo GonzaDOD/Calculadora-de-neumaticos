@@ -9,7 +9,7 @@
 
 ## Referencia：
 
-[![](rueda.png)
+![](rueda.jpg)
 
 ## Modo de uso
 `Ingresá los datos del neumático sin espacios: ` `220/40 R 18 80 H`
