@@ -103,3 +103,4 @@ else:  # Si, por lo contrario, los datos introducidos son correctos, se procede 
     """)
     # Mostramos en pantalla la información recopilada haciendo los cálculos necesarios
     # incluyendo la unidad de los valores y añadiendo el ".upper" para permitir minúsculas.
+input()
